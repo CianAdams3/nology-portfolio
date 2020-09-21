@@ -2,6 +2,16 @@ body{
 
     font-family: Helvetica
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background:#2980b9;
+    border-radius: 5px;
+}
 .lower-section,
 .upper-section {
   display: flex;
@@ -14,14 +24,14 @@ body{
 .upper-section {
   min-height: 20vh;
   width: 100%;
-  background: #34495e;
-  color:#c6ebbe ;
+  background: #252529;
+  color:#574AE2 ;
 }
 .lower-section{
   min-height: 20vh;
   width: 100%;
-  background:  #2c3e50;
-  color:#c6ebbe ;
+  background:  #C0B7B1;
+  color:#574AE2 ;
 }
 .section-divider {
   position: relative;
@@ -44,6 +54,11 @@ body{
       font-size: 3rem;
     }
 
+.navbar{
+    background-color: #252529;
+
+}
+.navbar-brand{ color: whitesmoke;}
 
  .navbar-nav{
      display: flex;
@@ -166,6 +181,7 @@ body{
     background-color: #19529C;
     position: relative;
     border-radius: 6px;
+    color: whitesmoke;
   }
   
   
