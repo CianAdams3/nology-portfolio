@@ -66,18 +66,19 @@ body{
      float: right;
  }
  
- .jumboback{ 
-     background-image: url(./photos/Background.gif)
- }
- .jumbotron{
-     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     margin-bottom: 0px;
+.jumboback{ 
+background-image:linear-gradient(rgba(50,50,50, 0.3), rgba(50,50,50, 0.3)), url(./photos/Background.gif) ;
+    
+}
+.jumbotron{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 
- }
+}
 
 .bottomp{
     display: flex;
