@@ -1,1 +1,163 @@
-style.css
+body{
+    background-color: gray
+}
+.spacer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ .navbar-nav{
+     display: flex;
+     align-content:flex-end;
+     float: right;
+ }
+ .jumboback{ 
+     background-image: url(./photos/Background.gif)
+ }
+ .jumbotron{
+     height: 1000px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+ }
+ .intro{ 
+    width: 20%;
+}
+.bottomp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.intro3{
+    width: 20%;
+    height: 500px;
+}
+.intropos{
+    margin: 50px;
+}
+ .center{
+    display: flex;
+    justify-content: center
+ }
+ .about{
+      width: 100%;
+      height: 1000px;
+
+  }
+  .reverse {
+      display: flex;
+      flex-direction: row-reverse
+  }
+  /* Set a background color */
+  .timeline {
+    background-color: #19529C;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 50px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+  }
+  
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+  /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  .challenges{
+      width: 100%;
+      height: 50vw;
+      background-image: url()
+  }
+  footer{
+      background-color: navy;
+      text-align: center;
+      height: 50px;
+      color: white;
+  }
