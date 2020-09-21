@@ -1,6 +1,45 @@
 body{
     background-color: gray
+    font-family: Helvetica
 }
+.lower-section,
+.upper-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(#2980b9, 0.5);
+
+  span { font-size: 2.2rem; }
+} 
+.upper-section {
+  min-height: 20vh;
+  width: 100%;
+  background: #34495e;
+}
+.lower-section{
+  min-height: 20vh;
+  width: 100%;
+  background:  #2c3e50;
+}
+.section-divider {
+  position: relative;
+}
+.section-divider:before {
+      font-family: 'codepen';
+      content: "CA"; 
+      text-align: center;
+      width: 6.5rem;
+      height: 6.5rem;
+      background: #2c3e50;
+      border-radius: 100%;
+      position: absolute;
+      top: -3.25rem;
+      left: calc(50% - 3.25rem);
+      color: rgba(#2980b9, 0.5);
+      line-height: 6rem;
+      text-indent: 1.75rem;
+      font-size: 3rem;
+    }
 .spacer{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -18,6 +57,7 @@ body{
      display: flex;
      flex-direction: column;
      align-items: center;
+     margin-bottom: 0px;
 
  }
  .intro{ 
@@ -41,9 +81,13 @@ body{
     display: flex;
     justify-content: center
  }
- .about{
+ .About{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
       width: 100%;
       height: 1000px;
+      background-color: #7ca5b8 ;
 
   }
   .reverse {
@@ -57,6 +101,7 @@ body{
     width: 100%;
     height: 600px;
     position: relative;
+    z-index: -2;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -68,6 +113,7 @@ body{
     top: 0;
     bottom: 0;
     left: 50%;
+    z-index: -1;
   }
   
   /* Container around content */
