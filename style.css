@@ -1,7 +1,9 @@
 body{
  font-family: Helvetica
 }
-
+.navcolour{
+  background-color: whitesmoke;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
