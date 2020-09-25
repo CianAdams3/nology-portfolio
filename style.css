@@ -30,18 +30,21 @@ body{
   color:#574AE2 ;
 }
 .lower-section{
+  display: flex;
+  justify-content: center;
   min-height: 20vh;
   width: 100%;
   background:  #C0B7B1;
   color:#574AE2 ;
+  
 }
-.section-divider {
-  position: relative;
+
 }
 .divider{
   margin: 10px;
 }
 .section-divider:before {
+      display: flex;
       font-family: 'codepen';
       content: "CA"; 
       text-align: center;
@@ -55,7 +58,7 @@ body{
       left: calc(50% - 3.25rem);
       color: rgba(#2980b9, 0.5);
       line-height: 6rem;
-      text-indent: 1.75rem;
+      text-indent: 1.3rem;
       font-size: 3rem;
     }
 
