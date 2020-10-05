@@ -233,13 +233,16 @@ text-shadow: 1px 1px gray
   }
   .card{
       display: flex;
+      text-align: center;
       justify-content: space-around;
       background-color: #7ca5b8;
       width: 60px;
       align-items: center;
       margin: 60px;
+      height: 400px;
   }
   .card-img-top{
+    margin: 10px;
       height: 150px;
       width: 150px;
       justify-content: center;
