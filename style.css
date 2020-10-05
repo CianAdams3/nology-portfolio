@@ -98,6 +98,14 @@ background-image:linear-gradient(rgba(50,50,50, 0.3), rgba(50,50,50, 0.3)), url(
     display: flex;
     justify-content: center
  }
+ #aboutMe{
+   display: flex;
+   justify-content: center;
+   text-shadow: 1px 1px gray
+ }
+ h5{
+   text-decoration: underline;
+ }
  .About{
      display: flex;
      flex-direction: column;
@@ -114,6 +122,7 @@ background-image:linear-gradient(rgba(50,50,50, 0.3), rgba(50,50,50, 0.3)), url(
 #timehead{
 display: flex;
 justify-content: center; 
+text-shadow: 1px 1px gray
 }
 .reverse {
     display: flex;
