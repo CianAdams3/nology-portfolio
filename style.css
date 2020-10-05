@@ -38,8 +38,6 @@ body{
   color:#574AE2 ;
   
 }
-
-}
 .divider{
   margin: 10px;
 }
@@ -110,6 +108,8 @@ background-image:linear-gradient(rgba(50,50,50, 0.3), rgba(50,50,50, 0.3)), url(
 .media{
   display: flex;
   flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
 }
 #timehead{
 display: flex;
@@ -224,15 +224,16 @@ justify-content: center;
   }
   .card{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       background-color: #7ca5b8;
-      width: 50px;
+      width: 60px;
       align-items: center;
-      margin: 10px;
+      margin: 60px;
   }
   .card-img-top{
-      height: 100px;
-      width: 100px;
+      height: 150px;
+      width: 200px;
+      justify-content: center;
   }
 
   footer{
